@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Just some Javascript Exercise">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Tennis Select</title>
+</head>
+<body>
+    <main>
+        <div class="tennis-container">
+            <h1>Escolha a cor do seu tênis</h1>
+            <div class="options-container">
+                <img id="tennis-img" src="https://i.ibb.co/8NmCPVq/converse-logo.png" alt="Tênis Rosa">
+                <div class="tennis-color-picker">
+                    <div id="pink"></div>
+                    <div id="dark"></div>
+                    <div id="green"></div>
+                    <div id="brown"></div>
+                </div>
+            </div>
+            <div id="price">R$ 244,90</div>
+            <button type="submit" id="buy-btn">Comprar</button>
+        </div>
+        <div class="modal-container">
+            <div class="modal">
+                <h1>🥳 Botão da sorte 🥳</h1>
+                <p id="message">Clique no botão abaixo e ganhe descontos exclusivos!</p>
+                <button type="submit" class="promo-btn" id="promo-btn">Adquirir desconto</button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script/script.js"></script>
+    <script src="script/pop-up.js"></script>
+</body>
+</html>
